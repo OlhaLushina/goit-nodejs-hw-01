@@ -28,7 +28,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 }
 
-
+/* Парсимо параметри з консолі за допомогою модуля commander */
 program
   .option('-a, --action, <type>', 'choose action')
   .option('-i, --id, <type>', 'user id')
